@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="main-card">
+    <div class="left-side column">
+      <h1 class="main-title">Your Result</h1>
+      
+      <div class="circle-result">
+        <div class="display-result">
+          <p class="final-result">76</p>
+          <p class="result-of-100">of 100</p>
+        </div>
+      </div>
+      
+      <div class="appreciation">
+        <h2 class="appreciation-title">Great</h2>
+        <p class="appreciation-text">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      
+    </div>
+
+    <div class="right-side column">
+      <h1 class="main-title">Summary</h1>
+      
+      <div class="categories">
+        <div class="trait trait-1">
+          <p class="category"><img src="assets/images/icon-reaction.svg" alt=""> Reaction</p>
+          <p class="score">80 <span class="slash-100">/ 100</span></p>
+        </div>
+        <div class="trait trait-2">
+          <p class="category"><img src="assets/images/icon-memory.svg" alt=""> Memory</p>
+          <p class="score">92 <span class="slash-100">/ 100</span></p>
+        </div>
+        <div class="trait trait-3">
+          <p class="category"><img src="assets/images/icon-verbal.svg" alt=""> Verbal</p>
+          <p class="score">61 <span class="slash-100">/ 100</span></p>
+        </div>
+        <div class="trait trait-4">
+          <p class="category"><img src="assets/images/icon-visual.svg" alt=""> Visual</p>
+          <p class="score">72 <span class="slash-100">/ 100</span></p>
+        </div>
+      </div>
+
+      <button class="btn">Continue</button>
+    </div>   
+  </div>
+
+</body>
+</html>
